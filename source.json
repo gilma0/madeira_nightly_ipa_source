@@ -1,0 +1,29 @@
+{
+  "name": "Madeira Nightly",
+  "identifier": "com.gilmatsliah.madeira.nightly.source",
+  "subtitle": "Unofficial AltStore and SideStore source",
+  "description": "Tracks the nightly IPA releases published by camhoc/Madeira.",
+  "iconURL": "https://raw.githubusercontent.com/camhoc/Madeira/main/app/Madeira/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+  "website": "https://github.com/camhoc/Madeira",
+  "tintColor": "7057D9",
+  "apps": [
+    {
+      "name": "Madeira Nightly",
+      "bundleIdentifier": "com.willfaust.madeora",
+      "developerName": "Will Faust, camhoc, and contributors",
+      "localizedDescription": "Run Windows PC games on iPhone and iPad using FEX, Wine, and Metal. Nightly builds are published by camhoc. The project recommends iOS 26 or later and requires JIT.",
+      "iconURL": "https://raw.githubusercontent.com/camhoc/Madeira/main/app/Madeira/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
+      "versions": [
+        {
+          "version": "0.2.0",
+          "buildVersion": "90",
+          "marketingVersion": "0.2.29",
+          "date": "2026-11-17T15:44:32Z",
+          "downloadURL": "https://github.com/camhoc/Madeira/releases/download/v0.2.29/Madeira.Nightly.0.2.29.ipa",
+          "size": 210767227,
+          "minOSVersion": "18.0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Madeira Nightly · App source</title>
+<style>
+[hidden]{display:none!important} body{font:17px/1.6 system-ui,sans-serif;background:#111424;color:#f3f3ff;max-width:680px;margin:10vh auto;padding:24px}
+a{color:#bbb1ff} .button{display:inline-block;background:#7057d9;color:white;padding:12px 20px;border-radius:12px;margin:8px 8px 8px 0;text-decoration:none}
+code{overflow-wrap:anywhere} #status{color:#c6c8da}
+</style>
+<h1>Madeira Nightly</h1>
+<p>An unofficial source for nightly builds published by camhoc.</p>
+<p>Add this source to browse releases and receive updates.</p>
+<a class="button" id="live" hidden>Add source to LiveContainer</a>
+<a class="button" id="side" hidden>Add source to SideStore</a>
+<p>Open this page in Safari on your iPhone or iPad, with the selected app already installed. Tap a button if your browser does not open it automatically.</p>
+<p>The project recommends iOS 26 or later and requires JIT. Nightly and stable builds share a bundle ID, so switching channels in SideStore can replace your existing Madeira installation.</p>
+<p><a href="source.json">Source JSON</a> · <a href="https://github.com/camhoc/Madeira/releases">Upstream releases</a></p>
+<p>Manual source URL: <code id="source"></code></p>
+<script>
+const sourceURL = new URL('source.json', location.href).href;
+document.getElementById('source').textContent = sourceURL;
+const live = document.getElementById('live');
+live.href = 'livecontainer://source?url=' + encodeURIComponent(sourceURL);
+live.hidden = false;
+const side = document.getElementById('side');
+side.href = 'sidestore://source?url=' + encodeURIComponent(sourceURL);
+side.hidden = false;
+const action = new URLSearchParams(location.search).get('action');
+if (action === 'livecontainer') location.href = live.href;
+if (action === 'sidestore') location.href = side.href;
+</script>
+</html>
