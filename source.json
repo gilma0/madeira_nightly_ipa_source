@@ -16,15 +16,6 @@
       "versions": [
         {
           "version": "0.2.0",
-          "buildVersion": "152",
-          "marketingVersion": "0.2.75-og",
-          "date": "2026-11-21T23:36:22Z",
-          "downloadURL": "https://github.com/camhoc/Madeira/releases/download/0.2.75-og/Madeira.Nightly.0.2.75.ipa",
-          "size": 229669225,
-          "minOSVersion": "18.0"
-        },
-        {
-          "version": "0.2.0",
           "buildVersion": "150",
           "marketingVersion": "0.2.72-og",
           "date": "2026-11-21T22:15:35Z",
