@@ -1,20 +1,14 @@
 {
-  "sha256:7271d31a234e0075b601a551874961ab0c75d38878e46c3fdabe62f23b8a2506": {
+  "sha256:fbd7f11b77d912e77b785e4af976b44f8b577f3272ffcab3252c9aa14c90314d": {
     "bundleIdentifier": "com.willfaust.madeora",
     "version": "0.2.0",
-    "buildVersion": "99",
+    "buildVersion": "152",
     "minOSVersion": "18.0"
   },
-  "sha256:0328d66712865904c7a9eeb47f2447d30d1c18adb40b793138d686f301e14252": {
+  "sha256:6cf218a571c18d4f0047ebcc60304c40d33dc87ec1b43a5478a652b1b88892a6": {
     "bundleIdentifier": "com.willfaust.madeora",
     "version": "0.2.0",
-    "buildVersion": "98",
-    "minOSVersion": "18.0"
-  },
-  "sha256:5d255c390902d5f2fff8e819673485d433df74735b3cb8ab1feec7e4a9c8f366": {
-    "bundleIdentifier": "com.willfaust.madeora",
-    "version": "0.2.0",
-    "buildVersion": "90",
+    "buildVersion": "150",
     "minOSVersion": "18.0"
   }
 }
