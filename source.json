@@ -15,6 +15,15 @@
       "iconURL": "https://raw.githubusercontent.com/camhoc/Madeira/main/app/Madeira/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png",
       "versions": [
         {
+          "version": "0.2.100",
+          "buildVersion": "178",
+          "marketingVersion": "0.2.100-og",
+          "date": "2026-11-25T01:24:43Z",
+          "downloadURL": "https://github.com/camhoc/Madeira/releases/download/0.2.100-og/Madeira.Nightly.0.2.100.og.ipa",
+          "size": 234045664,
+          "minOSVersion": "18.0"
+        },
+        {
           "version": "0.2.0",
           "buildVersion": "173",
           "marketingVersion": "0.2.95-og",
