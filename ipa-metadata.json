@@ -1,4 +1,10 @@
 {
+  "sha256:d9336315390dd138866f2aec9e2696d52ab10827aa5c803301d0e20f34f1e420": {
+    "bundleIdentifier": "com.willfaust.madeora",
+    "version": "0.2.101",
+    "buildVersion": "179",
+    "minOSVersion": "18.0"
+  },
   "sha256:89612d534e3af7fcd755599fb2124091c0f52117fefff7ab5f39723331ea1e09": {
     "bundleIdentifier": "com.willfaust.madeora",
     "version": "0.2.100",
