@@ -11,15 +11,15 @@
     "buildVersion": "178",
     "minOSVersion": "18.0"
   },
-  "sha256:50a9862a297fd3fc4dc63aede4f9a3d7cea4cde0493857f4a9f496084f80a78f": {
+  "sha256:70699e54896c3c4eec7f667d944246741f857d542fc6bf9ead1ced279ed39f26": {
     "bundleIdentifier": "com.willfaust.madeora",
-    "version": "0.2.0",
+    "version": "0.2.95",
     "buildVersion": "173",
     "minOSVersion": "18.0"
   },
-  "sha256:6cf218a571c18d4f0047ebcc60304c40d33dc87ec1b43a5478a652b1b88892a6": {
+  "sha256:74993b6986c311f7651ae249f1973339bee25173ea8f9b0da9246871bd47e6a8": {
     "bundleIdentifier": "com.willfaust.madeora",
-    "version": "0.2.0",
+    "version": "0.2.72",
     "buildVersion": "150",
     "minOSVersion": "18.0"
   }
